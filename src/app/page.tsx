@@ -71,8 +71,10 @@ export default function HomePage() {
               initial="hidden"
               animate="visible"
               variants={staggerContainer}
-              className="text-center lg:text-left"
+              className="text-center lg:text-left relative"
             >
+              {/* Fond sombre semi-transparent pour meilleur contraste */}
+              <div className="absolute -inset-8 bg-gradient-to-r from-[#0a1628]/80 via-[#0a1628]/60 to-transparent rounded-3xl -z-10 blur-sm" />
               <motion.div
                 variants={fadeInUp}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-[#FF6B00]/20 backdrop-blur-sm rounded-full text-white text-sm mb-6 border border-[#FF6B00]/30"
@@ -83,10 +85,22 @@ export default function HomePage() {
 
               <motion.h1
                 variants={fadeInUp}
-                className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+                className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
+                style={{
+                  color: '#FFFFFF',
+                  textShadow: '0 2px 4px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2)'
+                }}
               >
                 Achetez ou vendez votre voiture{' '}
-                <span className="text-[#FF6B00] drop-shadow-[0_0_30px_rgba(255,107,0,0.3)]">simplement</span>{' '}
+                <span 
+                  className="relative inline-block"
+                  style={{
+                    color: '#FF6B00',
+                    textShadow: '0 0 30px rgba(255,107,0,0.5), 0 0 60px rgba(255,107,0,0.3)'
+                  }}
+                >
+                  simplement
+                </span>{' '}
                 à Albertville
               </motion.h1>
 

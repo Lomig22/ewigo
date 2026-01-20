@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 EWIGO Albertville - Site Web Concession Automobile
 
-## Getting Started
+Un site web moderne et premium pour la franchise EWIGO Albertville, spécialisée dans l'achat et la vente de véhicules d'occasion.
 
-First, run the development server:
+![EWIGO Albertville](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
+
+## ✨ Fonctionnalités
+
+### Pages principales
+- **Accueil** - Hero section, services, avantages, véhicules, témoignages
+- **Acheter** - Liste des véhicules avec filtres avancés (marque, prix, année, kilométrage, carburant)
+- **Vendre** - Formulaire d'estimation gratuite avec processus en 3 étapes
+- **Détail véhicule** - Galerie photos, caractéristiques, équipements, véhicules similaires
+- **L'agence** - Présentation, équipe, valeurs, localisation
+- **Contact** - Formulaire, coordonnées, carte Google Maps, FAQ
+
+### Design & UX
+- 🎨 Design premium et moderne orienté automobile
+- 📱 100% responsive (mobile-first)
+- ⚡ Animations fluides avec Framer Motion
+- 🌙 Palette de couleurs sobres et professionnelles
+- 💎 Typographie moderne (Outfit + DM Sans)
+
+### Fonctionnalités techniques
+- 🔍 SEO optimisé pour le référencement local (Albertville, Savoie)
+- 🏎️ Performance optimisée avec Next.js 16
+- 🎯 Forte orientation conversion (CTAs stratégiques)
+- 📊 Données mockées pour les véhicules et avis
+
+## 🛠️ Stack Technique
+
+- **Framework** : Next.js 16 (App Router)
+- **Styling** : Tailwind CSS 4
+- **Animations** : Framer Motion
+- **Langage** : TypeScript
+- **Linting** : ESLint
+
+## 🚀 Installation
 
 ```bash
+# Cloner le repository
+git clone [url-repo]
+cd ewigo-main
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Structure du Projet
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+ewigo-main/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx              # Page d'accueil
+│   │   ├── acheter/              # Page véhicules
+│   │   ├── vendre/               # Page vente
+│   │   ├── vehicule/[id]/        # Page détail véhicule
+│   │   ├── agence/               # Page agence
+│   │   ├── contact/              # Page contact
+│   │   ├── layout.tsx            # Layout principal
+│   │   └── globals.css           # Styles globaux
+│   ├── components/
+│   │   ├── Header.tsx            # Navigation
+│   │   ├── Footer.tsx            # Pied de page
+│   │   ├── VehicleCard.tsx       # Carte véhicule
+│   │   └── ReviewCard.tsx        # Carte avis
+│   └── data/
+│       ├── vehicles.ts           # Données véhicules mockées
+│       └── reviews.ts            # Avis clients mockés
+├── public/                        # Assets statiques
+├── next.config.ts                 # Configuration Next.js
+├── tailwind.config.ts             # Configuration Tailwind
+└── package.json
+```
 
-## Learn More
+## 🎨 Design System
 
-To learn more about Next.js, take a look at the following resources:
+### Couleurs principales
+- **Primary** : `#1a365d` (Bleu marine)
+- **Accent** : `#e53e3e` (Rouge EWIGO)
+- **Gold** : `#d69e2e` (Accents dorés)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Composants réutilisables
+- Boutons primaires et secondaires
+- Cartes véhicules avec effets hover
+- Formulaires stylisés
+- Sections avec animations au scroll
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Personnalisation
 
-## Deploy on Vercel
+### Modifier les véhicules
+Éditez le fichier `src/data/vehicles.ts` pour ajouter/modifier les véhicules affichés.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Modifier les avis
+Éditez le fichier `src/data/reviews.ts` pour personnaliser les témoignages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Modifier les informations de contact
+Les coordonnées sont présentes dans :
+- `src/components/Footer.tsx`
+- `src/app/contact/page.tsx`
+- `src/app/agence/page.tsx`
+
+## 🔧 Scripts disponibles
+
+```bash
+npm run dev      # Serveur de développement
+npm run build    # Build de production
+npm run start    # Serveur de production
+npm run lint     # Vérification ESLint
+```
+
+## 📈 SEO & Performance
+
+Le site est optimisé pour :
+- ✅ Core Web Vitals
+- ✅ Référencement local (Albertville, Savoie)
+- ✅ Balises meta optimisées
+- ✅ Structure Hn sémantique
+- ✅ Images optimisées avec Next/Image
+
+## 📄 Licence
+
+Projet développé pour EWIGO Albertville. Tous droits réservés.
+
+---
+
+Développé avec ❤️ pour EWIGO Albertville

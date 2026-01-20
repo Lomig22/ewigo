@@ -83,12 +83,32 @@ export default function AcheterPage() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center"
+            className="text-center relative"
           >
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Nos véhicules <span className="text-[#e53e3e]">disponibles</span>
+            {/* Fond sombre pour meilleur contraste */}
+            <div className="absolute -inset-8 bg-gradient-to-br from-[#0a1628]/70 via-[#0a1628]/50 to-transparent rounded-3xl -z-10 blur-sm" />
+            
+            <h1 
+              className="text-4xl md:text-5xl font-bold mb-4"
+              style={{
+                color: '#FFFFFF',
+                textShadow: '0 2px 4px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2)'
+              }}
+            >
+              Nos véhicules <span 
+                style={{
+                  color: '#FF6B00',
+                  textShadow: '0 0 30px rgba(255,107,0,0.5), 0 0 60px rgba(255,107,0,0.3)'
+                }}
+              >disponibles</span>
             </h1>
-            <p className="text-white/70 text-lg max-w-2xl mx-auto">
+            <p 
+              className="text-lg max-w-2xl mx-auto"
+              style={{
+                color: 'rgba(255,255,255,0.85)',
+                textShadow: '0 1px 2px rgba(0,0,0,0.3)'
+              }}
+            >
               Découvrez notre sélection de véhicules d&apos;occasion contrôlés, 
               garantis et prêts à partir. Trouvez la voiture parfaite pour vous.
             </p>

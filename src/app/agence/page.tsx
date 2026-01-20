@@ -73,16 +73,36 @@ export default function AgencePage() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center max-w-3xl mx-auto"
+            className="text-center max-w-3xl mx-auto relative"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/80 text-sm mb-6">
-              <span className="w-2 h-2 bg-[#d69e2e] rounded-full" />
+            {/* Fond sombre pour meilleur contraste */}
+            <div className="absolute -inset-8 bg-gradient-to-br from-[#0a1628]/70 via-[#0a1628]/50 to-transparent rounded-3xl -z-10 blur-sm" />
+            
+            <span className="inline-flex items-center gap-2 px-4 py-2 bg-[#FF6B00]/20 backdrop-blur-sm rounded-full text-white text-sm mb-6 border border-[#FF6B00]/30">
+              <span className="w-2 h-2 bg-[#FF6B00] rounded-full" />
               Votre concessionnaire local
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              L&apos;agence <span className="text-[#e53e3e]">EWIGO</span> Albertville
+            <h1 
+              className="text-4xl md:text-5xl font-bold mb-6"
+              style={{
+                color: '#FFFFFF',
+                textShadow: '0 2px 4px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2)'
+              }}
+            >
+              L&apos;agence <span 
+                style={{
+                  color: '#FF6B00',
+                  textShadow: '0 0 30px rgba(255,107,0,0.5), 0 0 60px rgba(255,107,0,0.3)'
+                }}
+              >EWIGO</span> Albertville
             </h1>
-            <p className="text-white/70 text-lg">
+            <p 
+              className="text-lg"
+              style={{
+                color: 'rgba(255,255,255,0.85)',
+                textShadow: '0 1px 2px rgba(0,0,0,0.3)'
+              }}
+            >
               Depuis plus de 10 ans, nous accompagnons les habitants de la Savoie 
               dans l&apos;achat et la vente de véhicules d&apos;occasion en toute confiance.
             </p>

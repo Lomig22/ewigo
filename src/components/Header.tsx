@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navigation = [
@@ -36,12 +37,14 @@ export default function Header() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className={`font-bold text-2xl tracking-tight transition-colors ${
-              isScrolled ? 'text-[#1a365d]' : 'text-white'
-            }`}>
-              <span className="text-[#e53e3e]">EWIGO</span>
-              <span className="text-sm font-medium ml-1 opacity-80">Albertville</span>
-            </div>
+            <Image
+              src="/next.config.webp"
+              alt="EWIGO Albertville"
+              width={160}
+              height={50}
+              className="h-10 w-auto transition-all duration-300 group-hover:scale-105"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

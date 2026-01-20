@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const footerLinks = {
@@ -32,10 +33,13 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <div className="font-bold text-2xl">
-                <span className="text-[#e53e3e]">EWIGO</span>
-                <span className="text-sm font-medium ml-1 opacity-80">Albertville</span>
-              </div>
+              <Image
+                src="/next.config.webp"
+                alt="EWIGO Albertville"
+                width={160}
+                height={50}
+                className="h-10 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+              />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Votre partenaire de confiance pour l&apos;achat et la vente de véhicules d&apos;occasion 

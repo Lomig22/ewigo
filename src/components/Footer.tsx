@@ -36,9 +36,9 @@ export default function Footer() {
               <Image
                 src="/next.config.webp"
                 alt="EWIGO Albertville"
-                width={160}
-                height={50}
-                className="h-10 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                width={200}
+                height={62}
+                className="h-12 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
               />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">

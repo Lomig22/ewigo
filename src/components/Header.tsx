@@ -40,9 +40,9 @@ export default function Header() {
             <Image
               src="/next.config.webp"
               alt="EWIGO Albertville"
-              width={160}
-              height={50}
-              className="h-10 w-auto transition-all duration-300 group-hover:scale-105"
+              width={200}
+              height={62}
+              className="h-12 w-auto transition-all duration-300 group-hover:scale-105"
               priority
             />
           </Link>

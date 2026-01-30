@@ -4,12 +4,12 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'ELIMAT AUTO Albertville | Achat & Vente de Véhicules d\'Occasion',
-  description: 'Achetez ou vendez votre voiture en toute confiance à Albertville. Expertise locale, sélection rigoureuse, transactions sécurisées. Estimation gratuite de votre véhicule.',
-  keywords: 'voiture occasion Albertville, vendre voiture Albertville, acheter voiture Savoie, ELIMAT AUTO, concessionnaire Albertville',
+  title: 'ELIMAT AUTO Bordeaux | Achat & Vente de Véhicules d\'Occasion',
+  description: 'Achetez ou vendez votre voiture en toute confiance à Bordeaux. Expertise locale, sélection rigoureuse, transactions sécurisées. Estimation gratuite de votre véhicule.',
+  keywords: 'voiture occasion Bordeaux, vendre voiture Bordeaux, acheter voiture Gironde, ELIMAT AUTO, concessionnaire Bordeaux',
   openGraph: {
-    title: 'ELIMAT AUTO Albertville | Achat & Vente de Véhicules d\'Occasion',
-    description: 'Votre partenaire de confiance pour l\'achat et la vente de véhicules d\'occasion à Albertville.',
+    title: 'ELIMAT AUTO Bordeaux | Achat & Vente de Véhicules d\'Occasion',
+    description: 'Votre partenaire de confiance pour l\'achat et la vente de véhicules d\'occasion à Bordeaux.',
     locale: 'fr_FR',
     type: 'website',
   },

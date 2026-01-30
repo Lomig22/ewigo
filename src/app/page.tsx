@@ -80,7 +80,7 @@ export default function HomePage() {
                 className="inline-flex items-center gap-2 px-4 py-2 bg-[#FF6B00]/20 backdrop-blur-sm rounded-full text-white text-sm mb-6 border border-[#FF6B00]/30"
               >
                 <span className="w-2 h-2 bg-[#FF6B00] rounded-full animate-pulse" />
-                Votre concessionnaire à Albertville
+                Votre concessionnaire à Bordeaux
               </motion.div>
 
               <motion.h1
@@ -101,7 +101,7 @@ export default function HomePage() {
                 >
                   simplement
                 </span>{' '}
-                à Albertville
+                à Bordeaux
               </motion.h1>
 
               <motion.p
@@ -358,11 +358,11 @@ export default function HomePage() {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi choisir{' '}
-                <span className="text-[#e53e3e]">ELIMAT AUTO Albertville</span> ?
+                <span className="text-[#e53e3e]">ELIMAT AUTO Bordeaux</span> ?
               </h2>
               <p className="text-gray-600 text-lg mb-8">
-                Depuis plus de 10 ans, nous accompagnons les habitants d&apos;Albertville 
-                et de la Savoie dans leurs projets automobiles avec professionnalisme et transparence.
+                Depuis plus de 10 ans, nous accompagnons les habitants de Bordeaux 
+                et de la Gironde dans leurs projets automobiles avec professionnalisme et transparence.
               </p>
 
               <div className="space-y-6">
@@ -629,7 +629,7 @@ export default function HomePage() {
             </span>
             <h2 className="section-title">Ce que disent nos clients</h2>
             <p className="section-subtitle">
-              Découvrez les avis de nos clients satisfaits à Albertville et ses environs
+              Découvrez les avis de nos clients satisfaits à Bordeaux et ses environs
             </p>
           </motion.div>
 

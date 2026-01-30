@@ -38,8 +38,8 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/next.config.webp"
-              alt="ELIMAT AUTO Albertville"
+              src="/elimat-auto-logo.svg"
+              alt="ELIMAT AUTO Bordeaux"
               width={240}
               height={75}
               className="h-14 w-auto transition-all duration-300 group-hover:scale-105"

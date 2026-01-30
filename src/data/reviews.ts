@@ -13,7 +13,7 @@ export const reviews: Review[] = [
   {
     id: 'r001',
     name: 'Laurent M.',
-    city: 'Albertville',
+    city: 'Bordeaux',
     rating: 5,
     comment: 'Service impeccable ! J\'ai vendu ma voiture en moins d\'une semaine. Équipe professionnelle et transparente sur tout le processus.',
     date: '2025-11-15',
@@ -40,9 +40,9 @@ export const reviews: Review[] = [
   {
     id: 'r004',
     name: 'Christine L.',
-    city: 'Albertville',
+    city: 'Bordeaux',
     rating: 4,
-    comment: 'Bonne estimation de ma voiture, vente rapide. Je recommande ELIMAT AUTO Albertville pour leur sérieux.',
+    comment: 'Bonne estimation de ma voiture, vente rapide. Je recommande ELIMAT AUTO Bordeaux pour leur sérieux.',
     date: '2025-09-22',
     type: 'vente',
   },

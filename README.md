@@ -1,8 +1,8 @@
-# 🚗 ELIMAT AUTO Albertville - Site Web Concession Automobile
+# 🚗 ELIMAT AUTO Bordeaux - Site Web Concession Automobile
 
-Un site web moderne et premium pour la franchise ELIMAT AUTO Albertville, spécialisée dans l'achat et la vente de véhicules d'occasion.
+Un site web moderne et premium pour la franchise ELIMAT AUTO Bordeaux, spécialisée dans l'achat et la vente de véhicules d'occasion.
 
-![ELIMAT AUTO Albertville](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
+![ELIMAT AUTO Bordeaux](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
 
 ## ✨ Fonctionnalités
 
@@ -22,7 +22,7 @@ Un site web moderne et premium pour la franchise ELIMAT AUTO Albertville, spéci
 - 💎 Typographie moderne (Outfit + DM Sans)
 
 ### Fonctionnalités techniques
-- 🔍 SEO optimisé pour le référencement local (Albertville, Savoie)
+- 🔍 SEO optimisé pour le référencement local (Bordeaux, Gironde)
 - 🏎️ Performance optimisée avec Next.js 16
 - 🎯 Forte orientation conversion (CTAs stratégiques)
 - 📊 Données mockées pour les véhicules et avis
@@ -119,15 +119,15 @@ npm run lint     # Vérification ESLint
 
 Le site est optimisé pour :
 - ✅ Core Web Vitals
-- ✅ Référencement local (Albertville, Savoie)
+- ✅ Référencement local (Bordeaux, Gironde)
 - ✅ Balises meta optimisées
 - ✅ Structure Hn sémantique
 - ✅ Images optimisées avec Next/Image
 
 ## 📄 Licence
 
-Projet développé pour ELIMAT AUTO Albertville. Tous droits réservés.
+Projet développé pour ELIMAT AUTO Bordeaux. Tous droits réservés.
 
 ---
 
-Développé avec ❤️ pour ELIMAT AUTO Albertville
+Développé avec ❤️ pour ELIMAT AUTO Bordeaux

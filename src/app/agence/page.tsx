@@ -94,7 +94,7 @@ export default function AgencePage() {
                   color: '#FF6B00',
                   textShadow: '0 0 30px rgba(255,107,0,0.5), 0 0 60px rgba(255,107,0,0.3)'
                 }}
-              >ELIMAT AUTO</span> Albertville
+              >ELIMAT AUTO</span> Bordeaux
             </h1>
             <p 
               className="text-lg"
@@ -103,7 +103,7 @@ export default function AgencePage() {
                 textShadow: '0 1px 2px rgba(0,0,0,0.3)'
               }}
             >
-              Depuis plus de 10 ans, nous accompagnons les habitants de la Savoie 
+              Depuis plus de 10 ans, nous accompagnons les habitants de la Gironde 
               dans l&apos;achat et la vente de véhicules d&apos;occasion en toute confiance.
             </p>
           </motion.div>
@@ -129,8 +129,8 @@ export default function AgencePage() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Fondée en 2014, ELIMAT AUTO Albertville est née d&apos;une volonté simple : 
-                  offrir aux habitants de la Tarentaise un service de qualité pour 
+                  Fondée en 2014, ELIMAT AUTO Bordeaux est née d&apos;une volonté simple : 
+                  offrir aux habitants de la région bordelaise un service de qualité pour 
                   l&apos;achat et la vente de véhicules d&apos;occasion.
                 </p>
                 <p>
@@ -169,7 +169,7 @@ export default function AgencePage() {
               <div className="relative">
                 <Image
                   src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800"
-                  alt="Showroom ELIMAT AUTO Albertville"
+                  alt="Showroom ELIMAT AUTO Bordeaux"
                   width={600}
                   height={400}
                   className="rounded-3xl shadow-2xl"
@@ -189,8 +189,8 @@ export default function AgencePage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900">Albertville, Savoie</p>
-                      <p className="text-sm text-gray-500">123 Avenue de la Gare</p>
+                      <p className="font-bold text-gray-900">Bordeaux, Gironde</p>
+                      <p className="text-sm text-gray-500">123 Cours de la Marne</p>
                     </div>
                   </div>
                 </motion.div>
@@ -301,7 +301,7 @@ export default function AgencePage() {
                 Venez nous rencontrer
               </h2>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Notre agence est située en plein cœur d&apos;Albertville, facilement accessible 
+                Notre agence est située en plein cœur de Bordeaux, facilement accessible 
                 avec un parking gratuit à disposition. Notre équipe vous accueille du lundi 
                 au samedi pour tous vos projets automobiles.
               </p>
@@ -316,7 +316,7 @@ export default function AgencePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Adresse</h4>
-                    <p className="text-gray-600">123 Avenue de la Gare<br />73200 Albertville</p>
+                    <p className="text-gray-600">123 Cours de la Marne<br />33000 Bordeaux</p>
                   </div>
                 </div>
 
@@ -329,8 +329,8 @@ export default function AgencePage() {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Horaires d&apos;ouverture</h4>
                     <p className="text-gray-600">
-                      Lundi - Vendredi : 9h00 - 19h00<br />
-                      Samedi : 9h00 - 18h00<br />
+                      123 Cours de la Marne<br />
+                      33000 Bordeaux : 9h00 - 18h00<br />
                       Dimanche : Fermé
                     </p>
                   </div>
@@ -346,7 +346,7 @@ export default function AgencePage() {
                     <h4 className="font-semibold text-gray-900 mb-1">Contact</h4>
                     <p className="text-gray-600">
                       <a href="tel:0479320000" className="hover:text-[#e53e3e]">04 79 32 00 00</a><br />
-                      <a href="mailto:albertville@elimatauto.com" className="hover:text-[#e53e3e]">albertville@elimatauto.com</a>
+                      <a href="mailto:bordeaux@elimatauto.com" className="hover:text-[#e53e3e]">bordeaux@elimatauto.com</a>
                     </p>
                   </div>
                 </div>
@@ -377,7 +377,7 @@ export default function AgencePage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localisation ELIMAT AUTO Albertville"
+                  title="Localisation ELIMAT AUTO Bordeaux"
                 />
               </div>
             </motion.div>

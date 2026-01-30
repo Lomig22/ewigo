@@ -233,12 +233,12 @@ export default function VehicleDetailPage({ params }: PageProps) {
                       <span className="text-[#e53e3e] font-bold text-lg">EW</span>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900">ELIMAT AUTO Albertville</h4>
-                      <p className="text-sm text-gray-500">123 Avenue de la Gare</p>
+                      <h4 className="font-bold text-gray-900">ELIMAT AUTO Bordeaux</h4>
+                      <p className="text-sm text-gray-500">123 Cours de la Marne</p>
                     </div>
                   </div>
                   <div className="text-sm text-gray-600 space-y-1">
-                    <p>📍 73200 Albertville</p>
+                    <p>📍 33000 Bordeaux</p>
                     <p>🕐 Lun-Ven: 9h-19h | Sam: 9h-18h</p>
                   </div>
                 </div>

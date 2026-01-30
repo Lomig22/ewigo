@@ -1,4 +1,4 @@
-// Données mockées des véhicules ELIMAT AUTO Albertville
+// Données mockées des véhicules ELIMAT AUTO Bordeaux
 export interface Vehicle {
   id: string;
   brand: string;

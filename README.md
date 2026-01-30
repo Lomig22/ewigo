@@ -1,8 +1,8 @@
-# 🚗 EWIGO Albertville - Site Web Concession Automobile
+# 🚗 ELIMAT AUTO Albertville - Site Web Concession Automobile
 
-Un site web moderne et premium pour la franchise EWIGO Albertville, spécialisée dans l'achat et la vente de véhicules d'occasion.
+Un site web moderne et premium pour la franchise ELIMAT AUTO Albertville, spécialisée dans l'achat et la vente de véhicules d'occasion.
 
-![EWIGO Albertville](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
+![ELIMAT AUTO Albertville](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
 
 ## ✨ Fonctionnalités
 
@@ -83,7 +83,7 @@ ewigo-main/
 
 ### Couleurs principales
 - **Primary** : `#1a365d` (Bleu marine)
-- **Accent** : `#e53e3e` (Rouge EWIGO)
+- **Accent** : `#e53e3e` (Rouge ELIMAT AUTO)
 - **Gold** : `#d69e2e` (Accents dorés)
 
 ### Composants réutilisables
@@ -126,8 +126,8 @@ Le site est optimisé pour :
 
 ## 📄 Licence
 
-Projet développé pour EWIGO Albertville. Tous droits réservés.
+Projet développé pour ELIMAT AUTO Albertville. Tous droits réservés.
 
 ---
 
-Développé avec ❤️ pour EWIGO Albertville
+Développé avec ❤️ pour ELIMAT AUTO Albertville

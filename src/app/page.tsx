@@ -31,7 +31,7 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center hero-automotive overflow-hidden">
         {/* Background automotive elements */}
         <div className="absolute inset-0 overflow-hidden">
-          {/* Orange glow on right side - EWIGO style */}
+          {/* Orange glow on right side - ELIMAT AUTO style */}
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#FF6B00]/20 via-[#FF6B00]/5 to-transparent" />
           
           {/* Speed lines effect */}
@@ -343,7 +343,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== WHY EWIGO SECTION ===== */}
+      {/* ===== WHY ELIMAT AUTO SECTION ===== */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -358,7 +358,7 @@ export default function HomePage() {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi choisir{' '}
-                <span className="text-[#e53e3e]">EWIGO Albertville</span> ?
+                <span className="text-[#e53e3e]">ELIMAT AUTO Albertville</span> ?
               </h2>
               <p className="text-gray-600 text-lg mb-8">
                 Depuis plus de 10 ans, nous accompagnons les habitants d&apos;Albertville 

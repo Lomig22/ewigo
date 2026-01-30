@@ -39,7 +39,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/next.config.webp"
-              alt="EWIGO Albertville"
+              alt="ELIMAT AUTO Albertville"
               width={240}
               height={75}
               className="h-14 w-auto transition-all duration-300 group-hover:scale-105"

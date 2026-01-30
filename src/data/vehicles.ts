@@ -1,4 +1,4 @@
-// Données mockées des véhicules EWIGO Albertville
+// Données mockées des véhicules ELIMAT AUTO Albertville
 export interface Vehicle {
   id: string;
   brand: string;

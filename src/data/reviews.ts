@@ -42,7 +42,7 @@ export const reviews: Review[] = [
     name: 'Christine L.',
     city: 'Albertville',
     rating: 4,
-    comment: 'Bonne estimation de ma voiture, vente rapide. Je recommande EWIGO Albertville pour leur sérieux.',
+    comment: 'Bonne estimation de ma voiture, vente rapide. Je recommande ELIMAT AUTO Albertville pour leur sérieux.',
     date: '2025-09-22',
     type: 'vente',
   },

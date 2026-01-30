@@ -346,7 +346,7 @@ export default function VendrePage() {
               <div className="sticky top-28 space-y-6">
                 {/* Benefits Card */}
                 <div className="bg-gradient-to-br from-[#1a365d] to-[#2c5282] rounded-3xl p-8 text-white">
-                  <h3 className="text-xl font-bold mb-6">Pourquoi vendre avec EWIGO ?</h3>
+                  <h3 className="text-xl font-bold mb-6">Pourquoi vendre avec ELIMAT AUTO ?</h3>
                   <ul className="space-y-4">
                     {[
                       { icon: '💰', text: 'Estimation gratuite et sans engagement' },
@@ -409,7 +409,7 @@ export default function VendrePage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="section-title">Comment vendre avec EWIGO ?</h2>
+            <h2 className="section-title">Comment vendre avec ELIMAT AUTO ?</h2>
             <p className="section-subtitle">Un processus simple et rapide en 3 étapes</p>
           </motion.div>
 

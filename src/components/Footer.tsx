@@ -34,7 +34,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/elimat-auto-logo.svg"
+                src="/concessauto-logo.svg"
                 alt="ConcessAuto Bordeaux"
                 width={240}
                 height={75}

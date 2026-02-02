@@ -19,9 +19,9 @@
   <path d="M 10 30 L 35 30" stroke="url(#accentGradient)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
   <path d="M 10 40 L 25 40" stroke="url(#accentGradient)" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
   
-  <!-- ELIMAT text -->
-  <text x="50" y="35" font-family="'Outfit', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" letter-spacing="1">
-    ELIMAT
+  <!-- ConcessAuto text -->
+  <text x="50" y="35" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">
+    Concess
   </text>
   
   <!-- AUTO text -->

@@ -38,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/elimat-auto-logo.svg"
+              src="/concessauto-logo.svg"
               alt="ConcessAuto Bordeaux"
               width={240}
               height={75}

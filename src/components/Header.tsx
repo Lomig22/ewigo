@@ -39,7 +39,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/elimat-auto-logo.svg"
-              alt="ELIMAT AUTO Bordeaux"
+              alt="ConcessAuto Bordeaux"
               width={240}
               height={75}
               className="h-14 w-auto transition-all duration-300 group-hover:scale-105"

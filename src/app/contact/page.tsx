@@ -103,7 +103,7 @@ export default function ContactPage() {
                   </a>
 
                   <a
-                    href="mailto:bordeaux@elimatauto.com"
+                    href="mailto:bordeaux@concessauto.com"
                     className="flex items-center gap-4 p-4 bg-gray-50 rounded-2xl hover:bg-[#e53e3e]/5 transition-colors group"
                   >
                     <div className="w-14 h-14 bg-[#e53e3e]/10 rounded-xl flex items-center justify-center group-hover:bg-[#e53e3e] transition-colors">
@@ -113,7 +113,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500">Email</p>
-                      <p className="font-bold text-gray-900">bordeaux@elimatauto.com</p>
+                      <p className="font-bold text-gray-900">bordeaux@concessauto.com</p>
                     </div>
                   </a>
 
@@ -391,7 +391,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localisation ELIMAT AUTO Bordeaux"
+              title="Localisation ConcessAuto Bordeaux"
             />
           </motion.div>
         </div>

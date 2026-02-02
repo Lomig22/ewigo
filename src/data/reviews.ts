@@ -42,7 +42,7 @@ export const reviews: Review[] = [
     name: 'Christine L.',
     city: 'Bordeaux',
     rating: 4,
-    comment: 'Bonne estimation de ma voiture, vente rapide. Je recommande ELIMAT AUTO Bordeaux pour leur sérieux.',
+    comment: 'Bonne estimation de ma voiture, vente rapide. Je recommande ConcessAuto Bordeaux pour leur sérieux.',
     date: '2025-09-22',
     type: 'vente',
   },

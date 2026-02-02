@@ -1,4 +1,4 @@
-// Données mockées des véhicules ELIMAT AUTO Bordeaux
+// Données mockées des véhicules ConcessAuto Bordeaux
 export interface Vehicle {
   id: string;
   brand: string;

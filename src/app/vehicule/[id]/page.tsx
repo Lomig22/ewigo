@@ -233,7 +233,7 @@ export default function VehicleDetailPage({ params }: PageProps) {
                       <span className="text-[#e53e3e] font-bold text-lg">EW</span>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900">ELIMAT AUTO Bordeaux</h4>
+                      <h4 className="font-bold text-gray-900">ConcessAuto Bordeaux</h4>
                       <p className="text-sm text-gray-500">123 Cours de la Marne</p>
                     </div>
                   </div>

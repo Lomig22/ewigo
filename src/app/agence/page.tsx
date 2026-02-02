@@ -94,7 +94,7 @@ export default function AgencePage() {
                   color: '#FF6B00',
                   textShadow: '0 0 30px rgba(255,107,0,0.5), 0 0 60px rgba(255,107,0,0.3)'
                 }}
-              >ELIMAT AUTO</span> Bordeaux
+>ConcessAuto</span> Bordeaux
             </h1>
             <p 
               className="text-lg"
@@ -129,7 +129,7 @@ export default function AgencePage() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Fondée en 2014, ELIMAT AUTO Bordeaux est née d&apos;une volonté simple : 
+                  Fondée en 2014, ConcessAuto Bordeaux est née d&apos;une volonté simple : 
                   offrir aux habitants de la région bordelaise un service de qualité pour 
                   l&apos;achat et la vente de véhicules d&apos;occasion.
                 </p>
@@ -140,7 +140,7 @@ export default function AgencePage() {
                   vous accompagnons à chaque étape.
                 </p>
                 <p>
-                  Membre du réseau ELIMAT AUTO, nous bénéficions de l&apos;expertise d&apos;un 
+                  Membre du réseau ConcessAuto, nous bénéficions de l&apos;expertise d&apos;un 
                   groupe national tout en conservant notre ancrage local et notre 
                   approche personnalisée.
                 </p>
@@ -169,7 +169,7 @@ export default function AgencePage() {
               <div className="relative">
                 <Image
                   src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800"
-                  alt="Showroom ELIMAT AUTO Bordeaux"
+                  alt="Showroom ConcessAuto Bordeaux"
                   width={600}
                   height={400}
                   className="rounded-3xl shadow-2xl"
@@ -346,7 +346,7 @@ export default function AgencePage() {
                     <h4 className="font-semibold text-gray-900 mb-1">Contact</h4>
                     <p className="text-gray-600">
                       <a href="tel:0479320000" className="hover:text-[#e53e3e]">04 79 32 00 00</a><br />
-                      <a href="mailto:bordeaux@elimatauto.com" className="hover:text-[#e53e3e]">bordeaux@elimatauto.com</a>
+                      <a href="mailto:bordeaux@concessauto.com" className="hover:text-[#e53e3e]">bordeaux@concessauto.com</a>
                     </p>
                   </div>
                 </div>
@@ -377,7 +377,7 @@ export default function AgencePage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localisation ELIMAT AUTO Bordeaux"
+                  title="Localisation ConcessAuto Bordeaux"
                 />
               </div>
             </motion.div>

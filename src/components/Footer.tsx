@@ -35,7 +35,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-6">
               <Image
                 src="/elimat-auto-logo.svg"
-                alt="ELIMAT AUTO Bordeaux"
+                alt="ConcessAuto Bordeaux"
                 width={240}
                 height={75}
                 className="h-14 w-auto opacity-90 hover:opacity-100 transition-opacity"
@@ -137,8 +137,8 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-[#e53e3e] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:bordeaux@elimatauto.com" className="hover:text-white transition-colors">
-                  bordeaux@elimatauto.com
+                <a href="mailto:bordeaux@concessauto.com" className="hover:text-white transition-colors">
+                  bordeaux@concessauto.com
                 </a>
               </div>
               <div className="flex items-start gap-3">
@@ -160,7 +160,7 @@ export default function Footer() {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} ELIMAT AUTO Bordeaux. Tous droits réservés.
+              © {new Date().getFullYear()} ConcessAuto Bordeaux. Tous droits réservés.
             </p>
             <div className="flex gap-6">
               {footerLinks.legal.map((link) => (

@@ -358,7 +358,7 @@ export default function HomePage() {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi choisir{' '}
-                <span className="text-[#e53e3e]">ELIMAT AUTO Bordeaux</span> ?
+                <span className="text-[#e53e3e]">ConcessAuto Bordeaux</span> ?
               </h2>
               <p className="text-gray-600 text-lg mb-8">
                 Depuis plus de 10 ans, nous accompagnons les habitants de Bordeaux 

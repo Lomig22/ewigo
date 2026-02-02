@@ -1,8 +1,8 @@
-# 🚗 ELIMAT AUTO Bordeaux - Site Web Concession Automobile
+# 🚗 ConcessAuto Bordeaux - Site Web Concession Automobile
 
-Un site web moderne et premium pour la franchise ELIMAT AUTO Bordeaux, spécialisée dans l'achat et la vente de véhicules d'occasion.
+Un site web moderne et premium pour la franchise ConcessAuto Bordeaux, spécialisée dans l'achat et la vente de véhicules d'occasion.
 
-![ELIMAT AUTO Bordeaux](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
+![ConcessAuto Bordeaux](https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200)
 
 ## ✨ Fonctionnalités
 
@@ -83,7 +83,7 @@ ewigo-main/
 
 ### Couleurs principales
 - **Primary** : `#1a365d` (Bleu marine)
-- **Accent** : `#e53e3e` (Rouge ELIMAT AUTO)
+- **Accent** : `#e53e3e` (Rouge ConcessAuto)
 - **Gold** : `#d69e2e` (Accents dorés)
 
 ### Composants réutilisables
@@ -126,8 +126,8 @@ Le site est optimisé pour :
 
 ## 📄 Licence
 
-Projet développé pour ELIMAT AUTO Bordeaux. Tous droits réservés.
+Projet développé pour ConcessAuto Bordeaux. Tous droits réservés.
 
 ---
 
-Développé avec ❤️ pour ELIMAT AUTO Bordeaux
+Développé avec ❤️ pour ConcessAuto Bordeaux
